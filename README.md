@@ -1,2 +1,2 @@
 # spark-scorecard
-Spark-scorecard is a Python module for constructing score card built on top of spark.
+Spark-scorecard is a module for constructing score card built on top of Python Spark.
