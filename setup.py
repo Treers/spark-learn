@@ -9,7 +9,7 @@ setup(
     author='Youcai Fang',
     author_email='ahutfangyoucai@163.com',
     description=__doc__,
-    keywords="spark-scorecard",
+    keywords="spark-learn",
     packages=find_packages(),
     #scripts=[],
     #include_package_data=True,
