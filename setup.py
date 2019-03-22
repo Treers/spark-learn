@@ -2,7 +2,7 @@ import sys
 from setuptools import setup,find_packages
 
 setup(
-    name='dmtools',
+    name='spark-learn',
     version='0.1.0',
     #url='',
     license='MIT',
