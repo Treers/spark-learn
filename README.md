@@ -1,5 +1,5 @@
-# DMTools
-DMTools is a library for data mining engineering built on top of Python Spark.
+# OneStop
+OneStop is a library for data mining engineering built on top of Python Spark.
 # LICENSE
 MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LICENSE).
 
