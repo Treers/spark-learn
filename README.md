@@ -24,7 +24,7 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
         sys.exit(1)
 
 
-![](https://github.com/Treers/spark-learn/blob/master/etc/1.jpg)
+![](https://github.com/Treers/spark-learn/blob/master/etc/1.jpg =100x100)
 
 
 
