@@ -5,7 +5,7 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
 # Environmental Configuration
 - [Apache Spark - Installation](http://dblab.xmu.edu.cn/blog/1689-2/)
 
-- [How to call remote Python and add the PySpark module as an external library using local Pycharm](https://blog.csdn.net/u011596455/article/details/78979378)
+- [How to add the PySpark module as an external library using local Pycharm](https://blog.csdn.net/u011596455/article/details/78979378)
 
       # example
       import os
