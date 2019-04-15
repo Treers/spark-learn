@@ -8,6 +8,7 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
 - [How to add the remote PySpark module as an external library using local Pycharm](https://blog.csdn.net/u011596455/article/details/78979378)
 
       # An example under the configured environment
+      
       import os
       import sys
       os.environ['SPARK_HOME'] = '/usr/local/spark'
