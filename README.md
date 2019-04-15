@@ -22,11 +22,12 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
       except ImportError as e:
           print ("Can not import Spark Modules", e)
           sys.exit(1)
-After running the script, the output is as follows
-
-<p align="center">
-<img width="60%" height="40%" src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" />
-</p>
+After running the script, the output is as follows：
+     
+     ssh://hadoop@106.12.30.59:22/usr/bin/python3 -u /tmp/pycharm_project_192/test.py
+     Successfully imported Spark Modules
+     
+     Process finished with exit code 0
 
 
 
