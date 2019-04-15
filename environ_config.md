@@ -2,17 +2,19 @@
 
 2.[How to call remote Python and add the PySpark module as an external library using local Pycharm](https://blog.csdn.net/u011596455/article/details/78979378)
 
-`import os`
-`import sys`
-`os.environ['SPARK_HOME'] = '/usr/local/spark'`
-`sys.path.append("/usr/local/spark/python")`
+`
+import os
+import sys
+os.environ['SPARK_HOME'] = '/usr/local/spark'
+sys.path.append("/usr/local/spark/python")
 
-`try:`
-    `from pyspark import SparkContext`
-    `from pyspark import SparkConf`
+try:
+    from pyspark import SparkContext
+    from pyspark import SparkConf
 
-    `print ("Successfully imported Spark Modules")`
+    print ("Successfully imported Spark Modules")
 
-`except ImportError as e:`
-    `print ("Can not import Spark Modules", e)`
-    `sys.exit(1)`
+except ImportError as e:
+    print ("Can not import Spark Modules", e)
+    sys.exit(1)
+`
