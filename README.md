@@ -7,7 +7,7 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
 
 - [How to call remote Python and add the PySpark module as an external library using local Pycharm](https://blog.csdn.net/u011596455/article/details/78979378)
 
-
+      # example
       import os
       import sys
       os.environ['SPARK_HOME'] = '/usr/local/spark'
@@ -24,7 +24,7 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
           sys.exit(1)
           
           
-      After running the script, the output is as follows：
+      # After running the script, the output is as follows：
      
       ssh://hadoop@106.12.30.59:22/usr/bin/python3 -u /tmp/pycharm_project_192/test.py
       Successfully imported Spark Modules
