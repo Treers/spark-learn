@@ -23,10 +23,8 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
         print ("Can not import Spark Modules", e)
         sys.exit(1)
 
-<img src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" width="70%" height="60%" div align=center>
-
 <p align="center">
-<img width="70%" height="60%" src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" />
+<img width="60%" height="40%" src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" />
 </p>
 
 
