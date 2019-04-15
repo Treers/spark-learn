@@ -26,5 +26,9 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
 
 ![](https://github.com/Treers/spark-learn/blob/master/etc/1.jpg){:height="50%" width="50%"}
 
+<img src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" alt="Featuretools" />
+
+
+
 
 
