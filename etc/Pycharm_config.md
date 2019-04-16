@@ -10,7 +10,6 @@
 
 3. SSH Interpreter -> New server configuration -> IP -> Username -> Next -> password -> Next -> Specify the path of the remote interpreter -> finish  
 
-OR Tools -> Deployment -> Configuration -> Add(+) -> SFTP -> New server name ->etc and **you can also choose a existing sever configuration like fig.6**
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/3.jpg" />
 </p>
@@ -25,6 +24,7 @@ OR Tools -> Deployment -> Configuration -> Add(+) -> SFTP -> New server name ->e
 </p>
 
 
+- OR Tools -> Deployment -> Configuration -> Add(+) -> SFTP -> New server name ->etc and **you can also choose a existing sever configuration**
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/6.jpg" />
 </p>
