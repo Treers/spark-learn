@@ -7,3 +7,8 @@
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/2.jpg" />
 </p>
+
+3. SSH Interpreter -> New server configuration
+<p align="center">
+<img src="https://github.com/Treers/spark-learn/blob/master/etc/3.jpg" />
+</p>
