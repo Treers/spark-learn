@@ -8,7 +8,7 @@
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/2.jpg" />
 </p>
 
-3. SSH Interpreter -> New server configuration -> IP -> Username -> Next -> password -> Next -> Specify the path of the remote interpreter -> finish
+3. SSH Interpreter -> New server configuration -> IP -> Username -> Next -> password -> Next -> Specify the path of the remote interpreter -> finish  OR **you can also choose a existing sever configuration**
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/3.jpg" />
 </p>
@@ -20,4 +20,9 @@
 
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/5.jpg" />
+</p>
+
+
+<p align="center">
+<img src="https://github.com/Treers/spark-learn/blob/master/etc/6.jpg" />
 </p>
