@@ -8,7 +8,7 @@
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/2.jpg" />
 </p>
 
-3. SSH Interpreter -> New server configuration -> IP -> Username -> Next -> password -> Next -> Specify the path of the remote interpreter -> finish  OR **you can also choose a existing sever configuration**
+3. SSH Interpreter -> New server configuration -> IP -> Username -> Next -> password -> Next -> Specify the path of the remote interpreter -> finish  OR **you can also choose a existing sever configuration**(Tools -> Deployment -> Configuration -> Add(+) -> SFTP -> New server name ->etc)
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/3.jpg" />
 </p>
