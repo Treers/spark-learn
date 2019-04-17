@@ -2,10 +2,10 @@ import os
 import sys
 
 class SparkSessionNow(object):
-	'''
-	spark = SparkSessionNow(is_remote=True) \
-			.spark_entry(appName='myapp',spark_home='/usr/local/spark')
-	'''
+    '''
+    spark = SparkSessionNow(is_remote=True) \
+    		.spark_entry(appName='myapp',spark_home='/usr/local/spark')
+    '''
     def __init__(self, is_remote=False):
         self.is_remote = is_remote
 
