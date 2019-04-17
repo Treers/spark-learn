@@ -1,4 +1,4 @@
-[Reference](https://blog.csdn.net/u011596455/article/details/78979378)
+[Reference：See this blog for more details](https://blog.csdn.net/u011596455/article/details/78979378)
 
 1. Preference -> Project Interpreter -> show all
 <p align="center">
