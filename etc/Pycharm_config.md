@@ -1,3 +1,5 @@
+[Reference](https://blog.csdn.net/u011596455/article/details/78979378)
+
 1. Preference -> Project Interpreter -> show all
 <p align="center">
 <img src="https://github.com/Treers/spark-learn/blob/master/etc/1.jpg" />
