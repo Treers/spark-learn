@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-
-hard_dependencies = ("numpy", "pandas", "pyspark","sklearn")
+hard_dependencies = ("numpy", "pandas")
 missing_dependencies = []
 
 from IPython import get_ipython
@@ -31,10 +30,5 @@ if missing_dependencies:
     raise ImportError(
         "Missing required dependencies {0}".format(missing_dependencies))
 del hard_dependencies, dependency, missing_dependencies
-
-from core.api import *
-from derivative.api import *
-
-
 
 __version__ = '0.1.0'
