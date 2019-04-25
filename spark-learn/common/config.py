@@ -15,11 +15,9 @@ class set(object):
     def __init__(self, arg=None, config=config, lock=config_lock, **kwargs):
         if arg and not kwargs:
             kwargs = arg
-
         with lock:
             self.config = config
             self.old = {}
-
             for key, value in kwargs.items():
                 self._assign(key.split('.'), value, config, old=self.old)
 
@@ -32,7 +30,6 @@ class set(object):
                 else:
                     old[path_key] = '--delete--'
             d[keys[0]] = value
-
         else:
             key = keys[0]
             if key not in d:
