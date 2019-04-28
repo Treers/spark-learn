@@ -4,7 +4,7 @@ from ..utils._sessions import SparkSessionNow
 from ..utils._discriminators import is_path
 
 
-class LoadFromLocal(object):
+class read_csv(object):
     def __init__(self, file_path, spark_home=None, config={'key': 'default', 'value': 'default'},
                  appName='LoadCSVFromLocal', master='local', is_remote=True):
 
