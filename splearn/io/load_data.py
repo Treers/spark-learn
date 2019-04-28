@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from ..common._sessions import SparkSessionNow
-from ..common._discriminators import is_path
+from ..utils._sessions import SparkSessionNow
+from ..utils._discriminators import is_path
 
 
 class LoadFromLocal(object):
