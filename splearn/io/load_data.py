@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from ..common.spark_session import SparkSessionNow
+from ..common._sessions import SparkSessionNow
 from ..common._discriminators import is_path
 
 
