@@ -1,6 +1,5 @@
 import os
 import sys
-from . import config
 
 class SparkSessionNow(object):
     '''
