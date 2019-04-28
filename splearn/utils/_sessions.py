@@ -29,10 +29,3 @@ class SparkSessionNow(object):
             .getOrCreate()
 
         return spark
-
-
-
-
-
-
-
