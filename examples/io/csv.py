@@ -1,8 +1,15 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append('/tmp/pycharm_project_920/spark-learn/')
+sys.path.append('/tmp/pycharm_project_102/spark-learn/')
 from splearn.io import csv
+from splearn import config
 
-data=csv.read_csv('/tmp/learningPySpark/Chapter03/flight-data/departuredelays.csv',spark_home='/usr/local/spark')
+config.Set(app_name='app', master='local')
+config.Set(spark_home='/usr/local/spark')
 
-data.data2frame(header='True',inferSchema='True',sep=',').show()
+data=csv.ReadCsv('/tmp/learningPySpark/Chapter03/flight-data/departuredelays.csv')
+data.to_frame(header='True',inferSchema='True',sep=',').show()
+
+data2=csv.ReadCsv('/user/hadoop/departuredelays.csv')
+data2.to_frame(header='True',inferSchema='True',sep=',').show()
+
