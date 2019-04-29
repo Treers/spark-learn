@@ -6,10 +6,13 @@ from ..utils._discriminators import is_path
 
 class ReadCsv(object):
     def __init__(self, file_path, spark_home=None, config={'key': 'default', 'value': 'default'},
-                 appName='LoadCSVFromLocal', master='local', is_remote=True):
+                 appName='LoadCSVFromLocal', master='local', is_remote=True, hdfs=None):
 
         if is_path(file_path):
-            self.file_path = 'file://' + file_path
+            if hdfs is None:
+                self.file_path = 'file://' + file_path
+            else:
+                pass
         else:
             raise NotADirectoryError("The path may look like '/usr/local/xxx.csv'")
 
