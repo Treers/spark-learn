@@ -4,7 +4,7 @@ from ..utils._sessions import SparkSessionNow
 from ..utils._discriminators import is_path
 
 
-class read_csv(object):
+class ReadCsv(object):
     def __init__(self, file_path, spark_home=None, config={'key': 'default', 'value': 'default'},
                  appName='LoadCSVFromLocal', master='local', is_remote=True):
 
@@ -19,11 +19,11 @@ class read_csv(object):
         self.spark = SparkSessionNow(is_remote=is_remote) \
             .spark_entry(appName, config, spark_home, master)
 
-    def data2frame(self, schema=None, sep=None, encoding=None, quote=None, escape=None,
-                   comment=None, header=None, inferSchema=None, ignoreLeadingWhiteSpace=None,
-                   ignoreTrailingWhiteSpace=None, nullValue=None, nanValue=None, positiveInf=None,
-                   negativeInf=None, dateFormat=None, timestampFormat=None, maxColumns=None,
-                   maxCharsPerColumn=None, maxMalformedLogPerPartition=None, mode=None):
+    def to_frame(self, schema=None, sep=None, encoding=None, quote=None, escape=None,
+                 comment=None, header=None, inferSchema=None, ignoreLeadingWhiteSpace=None,
+                 ignoreTrailingWhiteSpace=None, nullValue=None, nanValue=None, positiveInf=None,
+                 negativeInf=None, dateFormat=None, timestampFormat=None, maxColumns=None,
+                 maxCharsPerColumn=None, maxMalformedLogPerPartition=None, mode=None):
         df = self.spark.read.csv(self.file_path, schema, sep, encoding, quote, escape,
                                  comment, header, inferSchema, ignoreLeadingWhiteSpace,
                                  ignoreTrailingWhiteSpace, nullValue, nanValue, positiveInf,
