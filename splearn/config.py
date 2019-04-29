@@ -9,7 +9,7 @@ config_lock = threading.Lock()
 no_default = 'no_default'
 
 
-class set(object):
+class Set(object):
     '''note'''
 
     def __init__(self, arg=None, config=config, lock=config_lock, **kwargs):
@@ -20,6 +20,9 @@ class set(object):
             self.old = {}
             for key, value in kwargs.items():
                 self._assign(key.split('.'), value, config, old=self.old)
+
+    def __repr__(self):
+        return '''Support config key: spark_home, app_name, spark_config, master'''
 
     def _assign(self, keys, value, d, old=None, path=[]):
         if len(keys) == 1:

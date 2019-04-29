@@ -1,31 +1,31 @@
 import os
 import sys
 
+
 class SparkSessionNow(object):
     '''
-    spark = SparkSessionNow(is_remote=True) \
-    		.spark_entry(appName='myapp',spark_home='/usr/local/spark')
+    note
     '''
-    def __init__(self, is_remote=False):
-        self.is_remote = is_remote
 
-    def _remote_environ(self, spark_home):
-        if isinstance("spark_home", str):
-            sys_path = spark_home + '/python'
-            os.environ['SPARK_HOME'] = spark_home
+    def __init__(self, spark_home):
+        self.spark_home = spark_home
+
+    def _remote_environ(self):
+        if isinstance(self.spark_home, str):
+            sys_path = self.spark_home + '/python'
+            os.environ['SPARK_HOME'] = self.spark_home
             sys.path.append(sys_path)
 
-    def spark_entry(self, appName, config={'key':"spark.some.config.option",'value':"some-value"}, 
-    				spark_home=None, master='local'):
+    def spark_entry(self, appName, config, master):
 
-        if self.is_remote:
-            self._remote_environ(spark_home)
+        if self.spark_home is not None:
+            self._remote_environ()
 
         from pyspark.sql import SparkSession
         spark = SparkSession.builder \
             .master(master) \
             .appName(appName) \
-            .config(config['key'], config['value']) \
+            .config(config[0], config[1], config[2]) \
             .getOrCreate()
 
         return spark
