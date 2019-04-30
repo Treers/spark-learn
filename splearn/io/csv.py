@@ -6,17 +6,14 @@ from .. import config
 
 
 class ReadCsv(object):
-    """
-    Interface used to load a DataFrame from external .csv or .txt files
+    """Interface used to load a DataFrame from external .csv or .txt files
 
-    Parameters
-    ----------
-    file_path : str, path object
-        Whether it is a local file or an HDFS file, the path should be in
-        the same format as: /localhost/path/to/xxx.csv.
+    :param file_path: The path of a file. Whether it is a local file or an HDFS file, the
+        path should be in the same format as: /localhost/path/to/xxx.csv.
+    :param hdfs: If True, the file will be read from HDFS, otherwise it will be read from
+        the local file system.
 
-
-
+    >>> read_csv =
     """
     def __init__(self, file_path, hdfs=False):
 
