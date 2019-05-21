@@ -55,6 +55,9 @@ For each example x in S
   - Let P(j|x) = \frac{1}{$\sum_{i}$} 
   
   \Sigma
+  
+ http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
 
 
 
