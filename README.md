@@ -53,6 +53,8 @@ For i = 1 to m
 For each example x in S
 - For each class j  
   - Let P(j|x) = \frac{1}{$\sum_{i}$} 
+  
+  \Sigma
 
 
 
