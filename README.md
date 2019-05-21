@@ -31,6 +31,29 @@ MIT. See [License File](https://github.com/Treers/spark-scorecard/blob/master/LI
       Successfully imported Spark Modules
      
       Process finished with exit code 0
+      
+
+
+
+Inputs:
+- S is the training set,  
+- L is a classification learning algorithm,  
+- C is a cost matrix,  
+- m is the number of resamples to generate,  
+- n is the number of examples in each resample,  
+- p is True iff L produces class probabilities,  
+- q is True iff all resamples are to be used for each example
+
+Procedure MetaCost (S, L, C, m, n, p, q)
+
+For i = 1 to m
+- Let S<sub>i</sub> be a resample of S with n examples.
+- Let M<sub>i</sub> = Model produced by applying L to S<sub>i</sub>.
+
+For each example x in S
+- For each class j  
+  - Let P(j|x) = \frac{1}{$\sum_{i}$} 
+
 
 
 
